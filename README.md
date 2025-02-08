@@ -12,7 +12,7 @@ This project is a gesture-controlled wireless mouse using the MPU6050 sensor. Th
 
 ## System Overview
 ### Block Diagram
-![System Block Diagram](https://github.com/quynhphamduong/Air-Mouse---Wireless-Mouse-Gesture-Control-Using-MPU6050/blob/0a358edcf26ce7ff9b889049cd9a96d1d3186624/Block%20diagram.png)
+![System Block Diagram](https://github.com/quynhphamduong/Air-Mouse---Wireless-Mouse-Gesture-Control-Using-MPU6050/blob/main/Block%20diagram.png)
 
 ### Components
 - **Microcontroller**: STM32F103C8T6
@@ -23,7 +23,7 @@ This project is a gesture-controlled wireless mouse using the MPU6050 sensor. Th
 
 ## Hardware Design
 ### Circuit Diagram
-![Circuit Diagram](images/circuit_diagram.png)
+![Circuit Diagram](https://github.com/quynhphamduong/Air-Mouse---Wireless-Mouse-Gesture-Control-Using-MPU6050/blob/77a11beec50cd34779986e8cda144eaf0a335076/Circuit%20diagram.jpg)
 
 The hardware consists of an STM32F103C8T6 microcontroller interfacing with the MPU6050 sensor and the HC-06 Bluetooth module. The flex sensor is used to detect clicks.
 
@@ -37,7 +37,7 @@ The firmware is developed using FreeRTOS with multiple tasks managing data colle
 - **Python Mouse Control**: Interprets sensor data to control the mouse cursor.
 
 ### Software Flowchart
-![Software Flowchart](images/software_flowchart.png)
+![Software Flowchart](https://github.com/quynhphamduong/Air-Mouse---Wireless-Mouse-Gesture-Control-Using-MPU6050/blob/77a11beec50cd34779986e8cda144eaf0a335076/main_flowchart.png)
 
 ## Python Script for Mouse Control
 A Python script using the `pyautogui` library interprets Bluetooth signals and moves the cursor accordingly.
@@ -56,8 +56,7 @@ while True:
 ```
 
 ## Results and Evaluation
-### Prototype Hardware
-![Prototype](images/prototype.jpg)
+![GUI]([images/prototype.jpg](https://github.com/quynhphamduong/Air-Mouse---Wireless-Mouse-Gesture-Control-Using-MPU6050/blob/77a11beec50cd34779986e8cda144eaf0a335076/guiguide.png))
 
 ### Advantages
 - Intuitive and hands-free operation.
