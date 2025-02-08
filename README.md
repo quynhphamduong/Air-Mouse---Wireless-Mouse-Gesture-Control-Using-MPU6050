@@ -69,8 +69,8 @@ while True:
 
 ## Installation and Usage
 1. Upload the firmware to the STM32 microcontroller.
-2. Pair the HC-06 module with the PC.
-3. Run the Python script to start mouse control.
+2. Pair the HC-06 module with the PC (module password : 1234).
+3. Run the mouse.py to start mouse control.
 
 
 ## Contributors
