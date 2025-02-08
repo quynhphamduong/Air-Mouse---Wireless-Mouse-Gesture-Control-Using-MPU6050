@@ -72,12 +72,6 @@ while True:
 2. Pair the HC-06 module with the PC (module password : 1234).
 3. Run the mouse.py to start mouse control.
 
-
-## Contributors
-- **Phạm Dương Quỳnh**
-- **Đào Anh Phi**
-
-
 ## License
 This project is open-source and available under the MIT License.
 
