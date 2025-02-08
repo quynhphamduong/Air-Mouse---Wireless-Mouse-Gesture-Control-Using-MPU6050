@@ -56,7 +56,7 @@ while True:
 ```
 
 ## Results and Evaluation
-![GUI]([images/prototype.jpg](https://github.com/quynhphamduong/Air-Mouse---Wireless-Mouse-Gesture-Control-Using-MPU6050/blob/77a11beec50cd34779986e8cda144eaf0a335076/guiguide.png))
+![GUI](https://github.com/quynhphamduong/Air-Mouse---Wireless-Mouse-Gesture-Control-Using-MPU6050/blob/77a11beec50cd34779986e8cda144eaf0a335076/guiguide.png)
 
 ### Advantages
 - Intuitive and hands-free operation.
@@ -72,12 +72,10 @@ while True:
 2. Pair the HC-06 module with the PC.
 3. Run the Python script to start mouse control.
 
-## Repository
-For full source code and schematics, visit: [GitHub Repository](https://github.com/Anh-phi-ngu-IT-Dien-tu/Nhom_31_lap_trinh_nhung.git)
 
 ## Contributors
-- **Phạm Dương Quỳnh** - 2114620
-- **Đào Anh Phi** - 2111996
+- **Phạm Dương Quỳnh**
+- **Đào Anh Phi**
 
 
 ## License
