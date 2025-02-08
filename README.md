@@ -12,7 +12,7 @@ This project is a gesture-controlled wireless mouse using the MPU6050 sensor. Th
 
 ## System Overview
 ### Block Diagram
-![System Block Diagram](images/system_diagram.png)
+![System Block Diagram](Block diagram.png)
 
 ### Components
 - **Microcontroller**: STM32F103C8T6
