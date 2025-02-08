@@ -1,5 +1,5 @@
-#  Air Mouse---Wireless-Mouse-Gesture-Control-Using-MPU6050
-
+#  Air Mouse---Wireless-Mouse-Gesture-Control-Using-MPU6050 
+🐭🖱️🫱💻
 ## Introduction
 This project is a gesture-controlled wireless mouse using the MPU6050 sensor. The system collects motion data from the user’s hand, processes it, and transmits signals via Bluetooth to control the mouse on a computer.
 
