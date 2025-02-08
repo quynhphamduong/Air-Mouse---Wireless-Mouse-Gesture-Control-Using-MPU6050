@@ -1,0 +1,24 @@
+# Function to handle sending feedback
+    def send_feedback():
+        feedback_value = feedback_text.get("1.0", tk.END).strip()
+        selected_rating = rating.get()
+
+        if selected_rating == 0:
+            messagebox.showwarning("Warning", "Please provide a rating before submitting.")
+            return
+
+        if not feedback_value:
+            messagebox.showwarning("Warning", "Please enter your feedback before submitting.")
+            return
+
+        # Save feedback to a file (feedback.txt)
+        with open("feedback.txt", "a") as file:
+            file.write(f"Rating: {selected_rating} stars\n")
+            file.write(f"Feedback: {feedback_value}\n")
+            file.write("="*40 + "\n")  # Separator for readability
+
+        # Clear the feedback form after sending
+        feedback_text.delete("1.0", tk.END)
+        rating.set(0)  # Reset the rating to 0
+        update_stars(0)  # Reset the stars to empty
+        messagebox.showinfo("Feedback Sent", "Thank you for your feedback!")
