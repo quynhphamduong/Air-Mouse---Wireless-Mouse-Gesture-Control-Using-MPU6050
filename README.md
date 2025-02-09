@@ -3,6 +3,10 @@
 ## Introduction
 This project is a gesture-controlled wireless mouse using the MPU6050 sensor. The system collects motion data from the user’s hand, processes it, and transmits signals via Bluetooth to control the mouse on a computer.
 
+## Contributors
+- Pham Duong Quynh
+- Dao Anh Phi
+  
 ## Features
 - Uses an MPU6050 sensor to track hand movement.
 - Integrates a Flex sensor to detect finger bending for click actions.
